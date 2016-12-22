@@ -2,18 +2,32 @@
 body{
 	max-width: 1440px;
 	height: auto;
+	background: #E8E8ED;
+	font-family: 'Lato','Raleway', sans-serif;
 }
 .page{
-	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-	max-width: 1380px;
+    width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    height: auto;
+    display: block;
+    position: relative;
+}
+h3{
+	font-size: 1em;
+    color: #98AAB1;
+    float: left;
+    font-weight: lighter;
+    padding-left: 30%;
+    padding-top: 4%;
 }
 .header_logo{
 	width: 100%;
 	height: auto;
 	float: left;
-	
+    border-right: 1px solid rgba(175, 195, 204, 0.3);
+    padding-bottom: 1.5%;
 }
 #header{
 	height: auto;
@@ -22,6 +36,53 @@ body{
 	box-shadow: 0px 8px 14px 0px rgba(185,185,185,0.25);
 	padding-bottom: 72px;
 }
+.time{
+	text-align: left;
+    padding: 0 0 0 0;
+    clear: right;
+    width: 28%;
+    margin-left: 48px;
+    font-size: .75em;
+	font-family: 'Raleway', sans-serif;
+    padding-top: 1%;
+    margin-bottom: -2.5%;
+    font-weight: lighter;
+}
+.time span{
+	color: #39A4DD;
+	font-weight: bold;
+}
+.main{
+	width: 1224px;
+	background: #FFFFFF;
+	box-shadow: 0px 60px 56px 10px rgba(29,233,182,0.10);
+	height: 891px;
+	margin-top: 60px;
+}
+.myaccount{
+	width: 260px;
+	float: right;
+	border-left: 1px solid rgba(175, 195, 204, 0.3);
+}
+.img-circle{
+    border-radius: 50%;
+    float: right;
+    padding-right: 30px;
+}
+.img-circle h3{
+	font-size: 1em;
+    color: #98AAB1;
+    float: left;
+    font-weight: lighter;
+    padding-left: 26%;
+    padding-top: 4%;
+}
+.user_col{
+	width: 466px;
+	float: left;
+	height: auto;
+	clear: right;
+}
 
 
 /* (Phones)) ----------- */
@@ -29,3 +90,34 @@ body{
 /* Styles */
 
 }
+
+/* Desktops and laptops ----------- */
+@media only screen  and (min-width : 1224px) {
+/* Styles */
+.header_logo{
+	width: 15%;
+    height: auto;
+    float: left;
+    padding-left: 3rem; /*48px*/
+    padding-top: 1.2em;
+}
+.page{
+    width: 100%;
+    max-width: 1440px;
+}
+.main{
+	width: 1190px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.time{
+	text-align: left;
+    padding: 0 0 0 0;
+    clear: right;
+    width: 28%;
+    margin-left: 48px;
+    font-size: .75em;
+    padding-top: 1%;
+    margin-bottom: -2.5%;
+}
+
