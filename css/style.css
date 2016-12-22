@@ -122,12 +122,12 @@ h3{
 }
 
 
-/* iPads (landscape) ----------- */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1224px) and (orientation : landscape) {
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 /* Styles */
-.header_logo{
-	padding-top: 1.5%;
-    margin-left: 2%;
+}.header_logo{
+    padding-top: 1.5%;
+    padding-left: 2%;
 }
 .page{
     width: 100%;
